@@ -16,7 +16,8 @@ function displayCount(event) {
 
 	// track total clicks- increment the counter variable
 	clickCount ++;
-
+	// output click count to container in DOM
 	// output click count to container in DOM
 	countContainer.innerHTML = clickCount + " clicks!";
+	
 }
