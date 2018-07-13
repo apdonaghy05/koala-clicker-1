@@ -19,5 +19,19 @@ function displayCount(event) {
 	// output click count to container in DOM
 	// output click count to container in DOM
 	countContainer.innerHTML = clickCount + " clicks!";
+
+
+	if (clickCount === 10){
+
+	console.log("hooray!")
+
+	}
+	
+	if (clickCount === 20){
+
+	console.log("Yeah!")
+
+}
 	
 }
+
